@@ -86,13 +86,13 @@ You will see an interactive CLI menu to:
 
 ## Example Metrics Output
 
+See [EXAMPLES.md](EXAMPLES.md) for a full CLI session output.
+
 ```text
 METRICS
-{
-  'total_tasks': 3,
-  'count_per_status': {'todo': 1, 'in_progress': 0, 'done': 2},
-  'average_completion_time_seconds': 42.5
-}
+Total Tasks: 3
+Counts     : {'todo': 1, 'in_progress': 1, 'done': 1}
+Avg Time   : 144.81 seconds
 ```
 
 If no tasks are completed, the average completion time is returned as `None`.
