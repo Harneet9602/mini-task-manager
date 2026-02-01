@@ -1,8 +1,3 @@
-Below is a **submission-ready `README.md`**.
-You can copy-paste this directly into your repo. It is concise, professional, and aligned exactly with your code and the round’s expectations.
-
----
-
 # Mini Task Manager (CLI)
 
 A simple command-line task management system implemented in Python.
